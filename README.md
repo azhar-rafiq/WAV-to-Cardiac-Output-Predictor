@@ -201,7 +201,7 @@ No deep learning framework required for inference — the model bundle uses scik
 
 ## Limitations
 
-- Trained on single-patient data — generalisation to new patients requires retraining or fine-tuning
+- Trained on single-sample (pig) data — generalisation to new sample requires retraining or fine-tuning
 - CO targets during training were derived from LV pressure measurements (EDV − ESV × HR), which measure left heart output; the PA Doppler measures right heart output — these agree under normal conditions but may diverge during haemodynamic events
 - Beat detection may fail on arrhythmic recordings (AF, frequent ectopics) — `WARNING: only N beats found` will be printed
 - The `vel_ratio` and `time_frac` features assume stable beat morphology; heavily variable waveforms reduce prediction accuracy
