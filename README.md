@@ -214,12 +214,7 @@ No deep learning framework required for inference — the model bundle uses scik
 .
 ├── predict_co.py          # inference pipeline (this file)
 ├── model_export/
-│   └── co_bundle.pkl      # trained model + scaler + feature list
-├── train_gru.py           # GRU-based training script (optional deep learning path)
-├── train6.py              # sklearn training pipeline
-├── extract_hr.py          # HR + beat feature extraction from 0.5ms CSV
-├── extract_beats.py       # beat-level dataset builder
-├── smooth_co.py           # cubic spline CO smoothing
+│   └── co_bundle.pkl      # trained model + scaler + feature list (⚠️ not uploaded)
 └── README.md
 ```
 
