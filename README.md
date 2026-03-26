@@ -1,4 +1,4 @@
-# predict_co.py — Real-Time Cardiac Output Prediction from Doppler WAV
+# Cardiac Output Prediction from Doppler WAV
 
 > Predict cardiac output (L/min) from a raw stereo IQ WAV file recorded by a pulmonary artery Doppler probe — no manual annotation, no post-processing, one command.
 
